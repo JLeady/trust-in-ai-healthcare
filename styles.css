@@ -82,7 +82,9 @@ nav a {
 
 nav a:hover,
 nav .active {
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 2px;
 }
 
 
@@ -110,11 +112,11 @@ p, li, h2, h3 {
 }
 
 .story-box .label {
-    font-weight: bold;
-    font-size: 0.90rem;
+    font-weight: 700;
+    font-size: 0.78rem;
     color: #3a7bd5;
     text-transform: uppercase;
-    margin-bottom: 10px;    
+    letter-spacing: 0.04rem;    
 }
 @media (min-width: 700px) {
     .story {
@@ -148,5 +150,62 @@ p, li, h2, h3 {
     padding: 3px 8px;
     border-radius: 4px;
     margin-bottom: 10px;
+}
+
+main{
+    padding: 24px 18px;
+}
+
+.story{
+    display: grid;
+    gap: 22px;
+    margin-top: 22px;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    align-items: stretch;
+}
+
+.story-box{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0,0,0,0.08);
+    border-radius: 14px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+    min-height: 560px;
+    padding: 20px;
+    background: white;
+}
+
+.story-content{
+    flex: 1;
+}
+
+.story-foot{
+    margin-top: 16px;
+    padding-top: 14px;
+    border-top: 1px solid rgba(0,0,0,0.08);
+}
+
+.story-img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+}
+
+.credit{
+    margin: 10px 0 0 0;
+    font-size: 0.8rem;
+    color: #666;
+    line-height: 1.35;
+    word-break: break-word;
+}
+
+.story-box ul{
+    margin: 10px 0 0 18px;
+}
+
+.story-box li{
+    margin-bottom: 6px;
 }
 
