@@ -4,7 +4,7 @@
     --muted: #666;
 
     --nav-bg: #656568;
-    --brand: #3a7bd5;
+    --brand: #2f5fb3;
 
     --card: #ffffff;
     --border: rgba(0,0,0,0.08);
@@ -120,7 +120,6 @@ nav ul {
     width: 100%;
     justify-content: flex-start;
     overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
 }
 
 nav a {
@@ -205,9 +204,9 @@ nav .active {
 
 .use-box .tag {
     background: #e7f1ff;
-    color: #1e6adb;
+    color: #1f4f99;
     display: inline-block;
-    font-size: 0.8rem;
+    font-size: 0.95rem;
     padding: 3px 8px;
     border-radius: 4px;
     margin-bottom: 10px;
