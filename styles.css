@@ -1,23 +1,24 @@
+/* :root allows me to use variables that can be called throughout the stylesheet*/
 :root{
-    --bg: #f4f5f6;
-    --text: #333;
-    --muted: #666;
+    --bg: #f4f5f6; /* Main background for all pages */
+    --text: #333; /* Primary text colour */
+    --muted: #666; /* Secondary text colour used for crediting authors of work I reference on the website */
 
-    --nav-bg: #656568;
-    --brand: #2f5fb3;
+    --nav-bg: #656568; /* Navigation Bar background colour */
+    --brand: #2f5fb3; /* Accent colour specifically for the reflection box and story box title */
 
-    --card: #ffffff;
-    --border: rgba(0,0,0,0.08);
+    --card: #ffffff; /* Background for the box-like cards used throughout the website */
+    --border: rgba(0,0,0,0.08); /* Colour for borders */
 
-    --radius: 14px;
-    --radius-sm: 6px;
+    --radius: 14px; /* Default value used for border radius allowing for rounded corners */
+    --radius-sm: 6px; /* Smaller border radius used for minor elements of the page i.e reflection cards */
 
-    --shadow-sm: 0 2px 10px rgba(0,0,0,0.05);
-    --shadow-md: 0 6px 18px rgba(0,0,0,0.06);
+    --shadow-sm: 0 2px 10px rgba(0,0,0,0.05); /* Light box shadow */
+    --shadow-md: 0 6px 18px rgba(0,0,0,0.06); /* Medium box shadow */
 }
 
 *{
-    box-sizing: border-box;
+    box-sizing: border-box;  /* Applies a more predictable sizing model to all elements. */
 }
 
 body{
